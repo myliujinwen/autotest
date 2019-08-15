@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="test(failed)">
+    <classes>
+      <class name="com.myemail.TestSearch">
+        <methods>
+          <include name="setDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.myemail.TestSearch -->
+      <class name="com.myemail.TestLoginModel">
+        <methods>
+          <include name="setDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.myemail.TestLoginModel -->
+      <class name="com.myemail.TestLoginParameter">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCase" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.myemail.TestLoginParameter -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
